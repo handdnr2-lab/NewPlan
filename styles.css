@@ -1,0 +1,41 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #67b8ff 0%, #cceeff 70%, #7dca66 70%, #58a746 100%);
+}
+
+main {
+  text-align: center;
+  color: #112;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0 0 0.2rem;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0.3rem 0;
+}
+
+canvas {
+  border: 3px solid #102;
+  border-radius: 10px;
+  background: #8dd5ff;
+  display: block;
+}
+
+#hud {
+  font-weight: 700;
+}
